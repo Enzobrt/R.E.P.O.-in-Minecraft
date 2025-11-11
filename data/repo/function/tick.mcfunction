@@ -1,0 +1,3 @@
+function repo:detect_crouch
+function repo:detect_run
+function repo:stamina_upgrade
