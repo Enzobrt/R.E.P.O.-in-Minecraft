@@ -1,3 +1,5 @@
 function repo:detect_crouch
 function repo:detect_run
 function repo:stamina_upgrade
+function repo:speed_upgrade
+function repo:health_upgrade

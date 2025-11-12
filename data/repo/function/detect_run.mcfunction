@@ -1,9 +1,12 @@
 # Subtract energy when running
 execute as @a if score @s energy matches 1.. if score @s is_sprinting matches 1.. run scoreboard players remove @s energy 1
 # Give speed effect when the player is running
+## 0 speed upgrades
 execute as @a if score @s energy matches 1.. if score @s is_sprinting matches 1.. if score @s run_speed_upgrade matches 0 run effect give @s minecraft:speed 1 0
+## 1 speed upgrade
 execute as @a if score @s energy matches 1.. if score @s is_sprinting matches 1.. if score @s run_speed_upgrade matches 1 run effect give @s minecraft:speed 1 1
-execute as @a if score @s energy matches 1.. if score @s is_sprinting matches 1.. if score @s run_speed_upgrade matches 2 run effect give @s minecraft:speed 1 2
+## 2 speed upgrades
+execute as @a if score @s energy matches 1.. if score @s is_sprinting matches 1.. if score @s run_speed_upgrade matches 2.. run effect give @s minecraft:speed 1 2
 # Reset running value
 scoreboard players set @a is_sprinting 0
 # Restore energy
