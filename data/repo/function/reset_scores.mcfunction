@@ -6,12 +6,11 @@ effect clear @a
 execute as @a run attribute @s generic.scale base set 1
 
 # Player upgrades
-scoreboard players set @a energy_recover 0
-scoreboard objectives add energy_recover_rate 0
-scoreboard objectives add run_speed_upgrade 0
-scoreboard objectives add health_upgrade 0
-scoreboard objectives add stamina_upgrade 0
+scoreboard players set @a energy_recover_rate 0
+scoreboard players set @a run_speed_upgrade 0
+scoreboard players set @a health_upgrade 0
+scoreboard players set @a stamina_upgrade 0
 
-# Monet
-scoreboard objectives add current_money 0
-scoreboard objectives add mission_money 0
+# Money
+scoreboard objectives set current_money 0
+scoreboard objectives set mission_money 0
