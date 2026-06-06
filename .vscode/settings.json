@@ -1,0 +1,9 @@
+{
+  "datapack.env.defaultNamespace": "repo",
+  "datapack.env.roots": [
+    {
+      "path": ".",
+      "type": "datapack"
+    }
+  ]
+}

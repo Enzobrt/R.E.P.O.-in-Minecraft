@@ -1,0 +1,2 @@
+scoreboard players add @s speed_upgrade 1
+tellraw @s {"text":"You bought a speed upgrade! [","color":"green","bold":true,"extra":[{"score":{"name":"@s","objective":"speed_upgrade"},"color":"yellow","bold":true},"/4]"]}

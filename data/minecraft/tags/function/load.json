@@ -1,7 +1,5 @@
 {
     "values": [
-        "repo:load",
-        "repo:reset_scores",
-        "repo:reset_upgrades"
+        "repo:load"
     ]
 }
