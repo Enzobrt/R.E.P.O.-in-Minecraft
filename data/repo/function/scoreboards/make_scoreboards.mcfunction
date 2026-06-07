@@ -7,5 +7,4 @@ scoreboard objectives add health_upgrade dummy
 scoreboard objectives add mission_money dummy
 scoreboard objectives add current_money dummy
 bossbar add money {"text":"Money","bold":true,"color":"gold"}
-bossbar set minecraft:money players @a
 bossbar set minecraft:money visible true
