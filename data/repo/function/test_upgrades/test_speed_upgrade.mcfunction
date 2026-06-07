@@ -1,1 +1,0 @@
-give GoldiDreadlocks minecraft:iron_ingot[food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000000},custom_data={speed_upgrade:true},custom_name='{"text":"Speed upgrade","bold":true, "color":"green"}']
