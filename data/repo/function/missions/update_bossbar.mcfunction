@@ -1,0 +1,1 @@
+$bossbar set minecraft:quota name ["",{"text":"Quota: ","color":"gold"},{"text":"$(value)","color":"yellow"},{"text":" / ","color":"gray"},{"text":"$(max)","color":"white"}]
